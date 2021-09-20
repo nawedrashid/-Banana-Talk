@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+body{
+    text-align: center;
+    font-family: 'Style Script', cursive;
+    background-image: url(banana.jpg);
+}
+.head{
+    background: linear-gradient(to bottom right, rgb(250, 200, 25),rgb(248, 248, 205));
+    padding: 25px 0px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: bold;
+}
+#input{
+    width: 60%;
+    height: 10vh;
+    padding: 15px;
+    margin-top: 5vh;
+    border-radius: 10px;
+    font-family: 'Style Script', cursive;
+    border: solid black 1px;
+}
+#btntranslate{
+    padding: 15px 25px;
+    border: black solid 1.5px;
+    border-radius: 10px;
+    margin: 4vh;
+    font-family: 'Style Script', cursive;
+    font-style: italic;
+    font-size: 20px;
+    background: linear-gradient(to bottom right, rgb(250, 200, 25),rgb(248, 248, 205));
+}
+#btntranslate:hover{
+    background: linear-gradient(to bottom right, rgb(248, 248, 205), rgb(250, 200, 25));
+}
+.output{
+    font-family: 'Style Script', cursive;
+}
+.output #outputtxt{
+    border: solid black 1px;
+    width: 60%;
+    height: 10vh;
+    padding: 15px;
+    border-radius: 10px;
+    margin:5vh auto;
+    background:white;
+}
+.footer{
+    background: linear-gradient(to bottom right, rgb(250, 200, 25),rgb(248, 248, 205));
+    padding: 20px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-size: 15px;   
+    width: 100%;
+}
+.footer .about{
+    font-style: italic;
+    font-size: 35px;
+    font-weight: bold;
+}
+.footer p{
+    margin: auto;
+    max-width: 600px;
+}
