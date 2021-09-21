@@ -1,10 +1,10 @@
-var btntrans = document.querySelector("#btntranslate");
-var input = document.querySelector("#inputtxt");
-var output = document.querySelector("#outputtxt");
+var btntrans = document.querySelector("#btn-translate");
+var input = document.querySelector("#input-txt");
+var output = document.querySelector("#output-txt");
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 function getTranslationURL(text){
-    return serverURL + "?" + "text" + text;
+    return serverURL + "?" + "text=" + text;
 }
 function errorHandler(error){
     console.log("Error Occured",error);
