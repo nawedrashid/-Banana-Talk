@@ -7,17 +7,17 @@
 body{
     text-align: center;
     font-family: 'Style Script', cursive;
-    background-image: url(banana.jpg);
+    background-image: url(/images/minion-bg.jpg);
 }
 .head{
-    background: linear-gradient(to bottom right, rgb(250, 200, 25),rgb(248, 248, 205));
+    background: linear-gradient(to bottom right, rgb(250, 180, 1),rgb(248, 248, 205));
     padding: 25px 0px;
     box-sizing: border-box;
     font-style: italic;
     font-size: 35px;
     font-weight: bold;
 }
-#input{
+#inputtxt{
     width: 60%;
     height: 10vh;
     padding: 15px;
@@ -34,10 +34,11 @@ body{
     font-family: 'Style Script', cursive;
     font-style: italic;
     font-size: 20px;
-    background: linear-gradient(to bottom right, rgb(250, 200, 25),rgb(248, 248, 205));
+    background: linear-gradient(to bottom right, rgb(250, 180, 1),rgb(248, 248, 205));
 }
 #btntranslate:hover{
-    background: linear-gradient(to bottom right, rgb(248, 248, 205), rgb(250, 200, 25));
+    background: linear-gradient(to bottom right, rgb(248, 248, 205), rgb(250, 180, 2));
+    cursor:pointer;
 }
 .output{
     font-family: 'Style Script', cursive;
@@ -52,7 +53,7 @@ body{
     background:white;
 }
 .footer{
-    background: linear-gradient(to bottom right, rgb(250, 200, 25),rgb(248, 248, 205));
+    background: linear-gradient(to bottom right, rgb(250, 180, 1),rgb(248, 248, 205));
     padding: 20px;
     box-sizing: border-box;
     font-style: italic;
