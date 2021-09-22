@@ -10,6 +10,7 @@ body{
 }
 .container{
     background-image: url(/images/minion-bg.jpg);
+    background-size: cover;
 }
 .head{
     background: linear-gradient(to bottom right, rgb(250, 180, 1),rgb(248, 248, 205));
